@@ -5,14 +5,7 @@
 const { List } = require("immutable");
 
 function concat(array) {
-	let l = List();
-	for (let numbers of array) {
-		for (let n of numbers) {
-			l = l.push(n)
-		}
-	}
 
-	return l;
 }
 
 console.log("合并两个对象");
