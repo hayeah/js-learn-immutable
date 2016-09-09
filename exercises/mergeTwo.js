@@ -10,13 +10,9 @@ function mergeTwo(o1, o2) {
 
 console.log("合并两个对象");
 console.log(
-	mergeTwo({
-		a: 1,
-		b: 2,
-	}, {
-			c: 30,
-			d: 40,
-		})
+	mergeTwo(
+		{ a: 1, b: 2, },
+		{ c: 30, d: 40, })
 );
 
 /*
